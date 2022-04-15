@@ -1,0 +1,10 @@
+{
+    "woman_fish":{
+        "woman_fish_horizontal_flip_image":{ 
+            "label_mean":0,
+            "iou":1,      
+            },
+        "woman_fish_vertical_flip_image:"{
+            },
+    }
+}
