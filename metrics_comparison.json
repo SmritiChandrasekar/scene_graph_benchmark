@@ -3,81 +3,14 @@
         {
             "woman_fis_h": [
                 {
-                    "woman_fish_horizontal_flip_image": {
-                        "label_mean": "0",
-                        "iou": "1"
-                    }
-                }
-            ]
-        },
-        {
-            "woman_fish": [
-                {
-                    "woman_fish_rotated_image": {
-                        "average_predicted_label": 0.3103448275862069,
-                        "average_iou": 0
-                    }
-                },
-                {
-                    "woman_fish_horizontal_flip_image": {
-                        "average_predicted_label": 0.76,
-                        "average_iou": 0.8580789501252382
-                    }
-                },
-                {
-                    "woman_fish_vertical_flip_image": {
-                        "average_predicted_label": 0.43333333333333335,
-                        "average_iou": 0.7736324916283289
-                    }
-                },
-                {
-                    "woman_fish_guassian_noise_image": {
-                        "average_predicted_label": 0.6,
-                        "average_iou": 0.8739210201634301
-                    }
-                },
-                {
-                    "woman_fish_median_noise_image": {
-                        "average_predicted_label": 0.5925925925925926,
-                        "average_iou": 0.8310515880584717
-                    }
-                },
-                {
-                    "woman_fish_grey_scale_image": {
-                        "average_predicted_label": 0.6,
-                        "average_iou": 0.8807681094516407
+                    "sample": {
+    
                     }
                 }
             ]
         }
     ],
     "total_average": [
-        {},
-        {
-            "_rotated_image.jpg": {
-                "tot_avg_labels": 0.3103448275862069,
-                "tot_avg_iou": 0
-            },
-            "_horizontal_flip_image.jpg": {
-                "tot_avg_labels": 0.76,
-                "tot_avg_iou": 0.8580789501252382
-            },
-            "_vertical_flip_image.jpg": {
-                "tot_avg_labels": 0.43333333333333335,
-                "tot_avg_iou": 0.7736324916283289
-            },
-            "_guassian_noise_image.jpg": {
-                "tot_avg_labels": 0.6,
-                "tot_avg_iou": 0.8739210201634301
-            },
-            "_median_noise_image.jpg": {
-                "tot_avg_labels": 0.5925925925925926,
-                "tot_avg_iou": 0.8310515880584717
-            },
-            "_grey_scale_image.jpg": {
-                "tot_avg_labels": 0.6,
-                "tot_avg_iou": 0.8807681094516407
-            }
-        }
+        {}
     ]
 }

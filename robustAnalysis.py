@@ -1,5 +1,6 @@
 from image_transformer import img_transformer
-from obj_detection import exec_obj_detection
+#from obj_detection import exec_obj_detection
+from object_detection_mscoco import exec_obj_detection  
 from transform_bbox import apply_bbox_transformations
 from intersectionOverUnion import calculate_iou
 import os
@@ -52,17 +53,19 @@ def calculate_label_metrics(original_img, transformed_img):
     return(len(common_elements)/len(union_list))
 
 original_list = img_transformer()
+print("original image list:")
+print(original_list)
 exec_obj_detection()
 
 transformations = ["_rotated_image.jpg","_horizontal_flip_image.jpg", "_vertical_flip_image.jpg", "_guassian_noise_image.jpg","_median_noise_image.jpg","_grey_scale_image.jpg"]
-f = open('detection_output.json')
+f = open('detection_output_mscoco.json')
 obj_detection_data = json.load(f)
 output_json = {}
 original_img_ouput=[]
 tot_avg_iou=[0,0,0,0,0,0]
 tot_avg_labels=[0,0,0,0,0,0]
-index=-1
 for img_file in original_list:
+    index=-1  
     img, file_extension = os.path.splitext(img_file)
     found_img = 0
     for i in obj_detection_data['category']:
