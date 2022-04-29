@@ -1,0 +1,17 @@
+{
+    "metrics": [
+        {
+            "woman_fis_h": [
+                {
+                    "sample": {
+                        "label_mean": "0",
+                        "iou": "1"
+                    }
+                }
+            ]
+        }
+    ],
+    "total_average": [
+        {}
+    ]
+}

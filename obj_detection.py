@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-def exec_obj_detection():
+def exec_obj_detection(model):
     directory = 'inputdir'
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)

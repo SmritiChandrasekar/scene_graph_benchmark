@@ -258,7 +258,7 @@ class COCODemo(object):
         key = op.splitext(op.split(args.image_file)[1])[0]
         print("Detection output:")
         print(image_output)
-        text_save_file = 'detection_output_mscoco.json'
+        text_save_file = 'detection_output/detection_output_'+ op.splitext(op.split(args.config_file)[1])[0] +'.json'
         self.write_json(image_output, text_save_file)
 
         return result_img, props

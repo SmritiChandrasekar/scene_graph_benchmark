@@ -1,0 +1,237 @@
+{
+    "metrics": [
+        {
+            "woman_fis_h": [
+                {
+                    "sample": {
+                        "label_mean": "0",
+                        "iou": "1"
+                    }
+                }
+            ]
+        },
+        {
+            "000000147740": [
+                {
+                    "000000147740_horizontal_flip_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8854544162750244
+                    }
+                },
+                {
+                    "000000147740_vertical_flip_image": {
+                        "average_predicted_label": 0.5,
+                        "average_iou": 0.7875836491584778
+                    }
+                },
+                {
+                    "000000147740_guassian_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.9456778873096813
+                    }
+                },
+                {
+                    "000000147740_median_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.8995313129641793
+                    }
+                },
+                {
+                    "000000147740_grey_scale_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8238649043169889
+                    }
+                }
+            ]
+        },
+        {
+            "000000147740": [
+                {
+                    "000000147740_horizontal_flip_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8854544162750244
+                    }
+                },
+                {
+                    "000000147740_vertical_flip_image": {
+                        "average_predicted_label": 0.5,
+                        "average_iou": 0.7875836491584778
+                    }
+                },
+                {
+                    "000000147740_guassian_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.9456778873096813
+                    }
+                },
+                {
+                    "000000147740_median_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.8995313129641793
+                    }
+                },
+                {
+                    "000000147740_grey_scale_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8238649043169889
+                    }
+                }
+            ],
+            "000000000139": [
+                {
+                    "000000000139_horizontal_flip_image": {
+                        "average_predicted_label": 0.9,
+                        "average_iou": 0.849590322801045
+                    }
+                },
+                {
+                    "000000000139_vertical_flip_image": {
+                        "average_predicted_label": 0.09090909090909091,
+                        "average_iou": 0
+                    }
+                },
+                {
+                    "000000000139_guassian_noise_image": {
+                        "average_predicted_label": 0.6,
+                        "average_iou": 0.8469505965709686
+                    }
+                },
+                {
+                    "000000000139_median_noise_image": {
+                        "average_predicted_label": 0.6,
+                        "average_iou": 0.8408904238180681
+                    }
+                },
+                {
+                    "000000000139_grey_scale_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.9022376444190741
+                    }
+                }
+            ]
+        },
+        {
+            "000000147740": [
+                {
+                    "000000147740_horizontal_flip_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8854544162750244
+                    }
+                },
+                {
+                    "000000147740_vertical_flip_image": {
+                        "average_predicted_label": 0.5,
+                        "average_iou": 0.7875836491584778
+                    }
+                },
+                {
+                    "000000147740_guassian_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.9456778873096813
+                    }
+                },
+                {
+                    "000000147740_median_noise_image": {
+                        "average_predicted_label": 0.8,
+                        "average_iou": 0.8995313129641793
+                    }
+                },
+                {
+                    "000000147740_grey_scale_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.8238649043169889
+                    }
+                }
+            ],
+            "000000000139": [
+                {
+                    "000000000139_horizontal_flip_image": {
+                        "average_predicted_label": 0.9,
+                        "average_iou": 0.849590322801045
+                    }
+                },
+                {
+                    "000000000139_vertical_flip_image": {
+                        "average_predicted_label": 0.09090909090909091,
+                        "average_iou": 0
+                    }
+                },
+                {
+                    "000000000139_guassian_noise_image": {
+                        "average_predicted_label": 0.6,
+                        "average_iou": 0.8469505965709686
+                    }
+                },
+                {
+                    "000000000139_median_noise_image": {
+                        "average_predicted_label": 0.6,
+                        "average_iou": 0.8408904238180681
+                    }
+                },
+                {
+                    "000000000139_grey_scale_image": {
+                        "average_predicted_label": 1.0,
+                        "average_iou": 0.9022376444190741
+                    }
+                }
+            ],
+            "000000435208": [
+                {
+                    "000000435208_horizontal_flip_image": {
+                        "average_predicted_label": 0.8571428571428571,
+                        "average_iou": 0.9026217716080802
+                    }
+                },
+                {
+                    "000000435208_vertical_flip_image": {
+                        "average_predicted_label": 0.14285714285714285,
+                        "average_iou": 0.9144744873046875
+                    }
+                },
+                {
+                    "000000435208_guassian_noise_image": {
+                        "average_predicted_label": 0.7142857142857143,
+                        "average_iou": 0.9341556330521902
+                    }
+                },
+                {
+                    "000000435208_median_noise_image": {
+                        "average_predicted_label": 0.8571428571428571,
+                        "average_iou": 0.9038304005350385
+                    }
+                },
+                {
+                    "000000435208_grey_scale_image": {
+                        "average_predicted_label": 0.7142857142857143,
+                        "average_iou": 0.9117367982864379
+                    }
+                }
+            ]
+        }
+    ],
+    "total_average": [
+        {},
+        {
+            "_horizontal_flip_image.jpg": {
+                "tot_avg_labels": 2.757142857142857,
+                "tot_avg_iou": 2.6376665106841495
+            },
+            "_vertical_flip_image.jpg": {
+                "tot_avg_labels": 0.7337662337662338,
+                "tot_avg_iou": 1.7020581364631653
+            },
+            "_guassian_noise_image.jpg": {
+                "tot_avg_labels": 2.1142857142857143,
+                "tot_avg_iou": 2.72678411693284
+            },
+            "_median_noise_image.jpg": {
+                "tot_avg_labels": 2.257142857142857,
+                "tot_avg_iou": 2.644252137317286
+            },
+            "_grey_scale_image.jpg": {
+                "tot_avg_labels": 2.7142857142857144,
+                "tot_avg_iou": 2.637839347022501
+            }
+        }
+    ]
+}

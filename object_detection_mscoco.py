@@ -1,9 +1,8 @@
 import subprocess
 import os
 
-def exec_obj_detection():
+def exec_obj_detection(model):
     directory = 'inputdir'
-    model = "caffe2/e2e_faster_rcnn_X_101_32x8d_FPN_1x_caffe2.yaml"
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
         # checking if it is a file
